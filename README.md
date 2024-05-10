@@ -11,6 +11,6 @@ crontab -e
 ```
 然后在打开的编辑器中添加一行如下的内容，表示每天凌晨4点执行update_moon.sh脚本：
 ```
-0 4 * * * /etc/config/zero/update_moon.sh
+0 4 * * * /etc/config/zero/u2-opwt.sh
 ```
 保存并退出编辑器。这会将指定的命令添加到用户的crontab中，使其每天凌晨2点自动执行。
